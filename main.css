@@ -1,0 +1,34 @@
+.names {
+    font-size: 18px;  
+    font-family: 'Lato', sans-serif;    
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px white, 0 0 10px white, 0 0 10px white, 0 0 10px white;
+  }
+  
+  .b {
+    color: blue;  
+    text-shadow: 0 0 10px blue, 0 0 10px blue, 0 0 10px blue, 0 0 10px blue;
+    font-size: 100px;
+    font-family: serif;
+  }
+  
+  .a {
+    color: yellow;
+    text-shadow: 0 0 10px yellow, 0 0 10px yellow, 0 0 10px yellow, 0 0 10px yellow;
+    font-size: 100px;
+    font-family: serif;
+  }
+  
+  .display_stats{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .score_display{
+    padding-top:20px ;
+  }
+  .new_game{
+    border: 40px solid black;
+    background: white;
+    color: black;
+  }
